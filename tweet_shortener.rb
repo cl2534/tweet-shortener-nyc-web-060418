@@ -16,7 +16,7 @@ def dictionary
 end
 
 def word_substituter(tweet)
-  strings = str.split(" ")
+  strings = tweet.split(" ")
   count = 0 
   strings.each do |word|
     if dictionary.keys.include?(word.downcase)
