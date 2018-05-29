@@ -20,9 +20,9 @@ def word_substituter(tweet)
   count = 0 
   strings.each do |word|
     if dictionary.keys.include?(word.downcase)
-      strings[counter] = dictionary[word.downcase]
+      strings[count] = dictionary[word.downcase]
     end
-  count += 1
+    count += 1
   end
   result = strings.join(" ")
   result
