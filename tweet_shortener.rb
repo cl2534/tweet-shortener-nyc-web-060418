@@ -23,3 +23,5 @@ def word_substituter(tweet)
       strings[counter] = dictionary[word.downcase]
     end
   count += 1
+  end
+  
