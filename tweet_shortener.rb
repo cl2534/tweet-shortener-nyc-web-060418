@@ -16,4 +16,5 @@ def dictionary
 end
 
 def word_substituter(tweet)
-  str.split(" ").each do |
+  str.split(" ").each do |word|
+    
