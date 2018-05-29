@@ -24,4 +24,5 @@ def word_substituter(tweet)
     end
   count += 1
   end
-  
+  result = strings.join(" ")
+  result
