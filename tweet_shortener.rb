@@ -21,3 +21,5 @@ def word_substituter(tweet)
   strings.each do |word|
     if dictionary.keys.include?(word.downcase)
       strings[counter] = dictionary[word.downcase]
+    end
+  count += 1
